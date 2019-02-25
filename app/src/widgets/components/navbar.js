@@ -1,10 +1,16 @@
 import React from 'react';
+import './navbar.scss';
+import picprolabLogo from '../../../assets/img/logo.png';
+
+console.log(picprolabLogo);
+
 
 const Navbar = (props) => (
-  <nav className="navbar" role="navigation" aria-label="main navigation">
+  <nav className="navbar is-dark" role="navigation" aria-label="main navigation">
     <div className="navbar-brand">
       <a className="navbar-item" href="https://bulma.io">
-        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" />
+        <span className="logo">Picpro<i className="fas fa-flask"></i></span>
+        {/* <img src={picprolabLogo} width="112" height="28" /> */}
       </a>
 
       <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -15,45 +21,51 @@ const Navbar = (props) => (
     </div>
 
     <div id="navbarBasicExample" className="navbar-menu">
-      <div className="navbar-start">
+      <div className="navbar-end">
         <a className="navbar-item">
           Home
         </a>
 
         <a className="navbar-item">
-          Documentation
+          About us
         </a>
+
+        <a className="navbar-item">
+          Products
+        </a>
+
 
         <div className="navbar-item has-dropdown is-hoverable">
           <a className="navbar-link">
-            More
+            Services
           </a>
           <div className="navbar-dropdown">
             <a className="navbar-item">
-              About
+              Create your album
             </a>
             <a className="navbar-item">
               Jobs
             </a>
-            <a className="navbar-item">
-              Contact
-            </a>
-            <hr className="navbar-divider" />
-            <a className="navbar-item">
-              Report an issue
-            </a>
           </div>
         </div>
-      </div>
+        <a className="navbar-item">
+          Contact
+        </a>
 
-      <div className="navbar-end">
-        <div className="navbar-item">
-          <div className="buttons">
-            <a className="button is-primary">
-              <strong>Sign up</strong>
+        <a className="navbar-item">
+          <i className="fas fa-shopping-cart"></i>
+        </a>
+        {/* user options */}
+        <div className="navbar-item has-dropdown is-hoverable">
+          <a className="navbar-link">
+            <i className="far fa-user has-text-white"></i>
+          </a>
+          <div className="navbar-dropdown">
+            <a className="navbar-item">
+              Profile
             </a>
-            <a className="button is-light">
-              Log in
+            <a className="navbar-item">
+              Logout
             </a>
           </div>
         </div>
