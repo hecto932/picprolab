@@ -1,0 +1,22 @@
+{
+  "name": "picprolab",
+  "version": "1.0.0",
+  "description": "A simple web app for customer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hecto932/picprolab.git"
+  },
+  "author": "Hector Flores <hecto932@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hecto932/picprolab/issues"
+  },
+  "homepage": "https://github.com/hecto932/picprolab#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
