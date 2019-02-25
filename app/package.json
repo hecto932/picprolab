@@ -1,0 +1,32 @@
+{
+  "name": "picprolab-app",
+  "version": "1.0.0",
+  "description": "A Frontend wep app",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack-dev-server --config ./webpack.dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hecto932/picprolab.git"
+  },
+  "author": "Hector Flores <hecto932@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hecto932/picprolab/issues"
+  },
+  "homepage": "https://github.com/hecto932/picprolab#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  }
+}
