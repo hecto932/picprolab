@@ -32,6 +32,7 @@
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
+    "bulma-carousel": "^4.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
   }

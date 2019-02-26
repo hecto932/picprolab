@@ -2,9 +2,6 @@ import React from 'react';
 import './navbar.scss';
 import picprolabLogo from '../../../assets/img/logo.png';
 
-console.log(picprolabLogo);
-
-
 const Navbar = (props) => (
   <nav className="navbar is-dark" role="navigation" aria-label="main navigation">
     <div className="navbar-brand">
