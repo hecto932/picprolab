@@ -8,7 +8,7 @@ const Image = (props) => (
     width: '100%',
     padding: '10em'
   }}>
-    <h1 className="title is-size-3">{props.title}</h1>
+    <h1 className="title is-size-5">{props.title}</h1>
   </figure>
 )
 

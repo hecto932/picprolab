@@ -55,11 +55,13 @@ const Navbar = (props) => (
         {/* user options */}
         <div className="navbar-item has-dropdown is-hoverable">
           <a className="navbar-link has-text-weight-bold">
-            <i className="far fa-user has-text-white"></i>
+            <span className="user-padding">
+              <i class="fas fa-user"></i> 
+            </span>
           </a>
           <div className="navbar-dropdown">
             <a className="navbar-item">
-              Profile
+              My profile
             </a>
             <a className="navbar-item">
               Logout

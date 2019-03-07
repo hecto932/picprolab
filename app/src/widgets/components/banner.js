@@ -1,4 +1,5 @@
 import React from 'react';
+import './banner.scss';
 
 const Banner = (props) => (
   <div className="">
@@ -12,7 +13,7 @@ const Banner = (props) => (
       </div>
     </section>
     <figure>
-      <img id="bannerImages" className="image" src={props.urlImage} width="100%" />
+      <img id="bannerImages" className="image image-transition" src={props.urlImage} width="100%" />
     </figure>
   </div>
 );
