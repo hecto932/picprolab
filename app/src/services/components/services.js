@@ -11,7 +11,7 @@ const Services = (props) => (
           What do you need ?
         </h2>
         <div className="container">
-          <div className="columns is-mobile">
+          <div className="columns is-desktop">
             {props.items.map((e, index) => {
               return (
                 <div key={index} className="column">
