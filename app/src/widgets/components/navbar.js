@@ -3,7 +3,7 @@ import './navbar.scss';
 import picprolabLogo from '../../../assets/img/logo.png';
 
 const Navbar = (props) => (
-  <nav className="navbar is-dark" role="navigation" aria-label="main navigation">
+  <nav className="navbar is-primary" role="navigation" aria-label="main navigation">
     <div className="navbar-brand">
       <a className="navbar-item" href="https://bulma.io">
         <span className="logo">Picpro<i className="fas fa-flask"></i></span>
@@ -19,22 +19,22 @@ const Navbar = (props) => (
 
     <div id="navbarBasicExample" className="navbar-menu">
       <div className="navbar-end">
-        <a className="navbar-item">
-          Home
+        <a className="navbar-item has-text-weight-bold">
+          HOME
         </a>
 
-        <a className="navbar-item">
-          About us
+        <a className="navbar-item has-text-weight-bold">
+          ABOUT US
         </a>
 
-        <a className="navbar-item">
-          Products
+        <a className="navbar-item has-text-weight-bold">
+          PRODUCTS
         </a>
 
 
         <div className="navbar-item has-dropdown is-hoverable">
-          <a className="navbar-link">
-            Services
+          <a className="navbar-link has-text-weight-bold">
+            SERVICES
           </a>
           <div className="navbar-dropdown">
             <a className="navbar-item">
@@ -45,8 +45,8 @@ const Navbar = (props) => (
             </a>
           </div>
         </div>
-        <a className="navbar-item">
-          Contact
+        <a className="navbar-item has-text-weight-bold">
+          CONTACT
         </a>
 
         <a className="navbar-item">
@@ -54,7 +54,7 @@ const Navbar = (props) => (
         </a>
         {/* user options */}
         <div className="navbar-item has-dropdown is-hoverable">
-          <a className="navbar-link">
+          <a className="navbar-link has-text-weight-bold">
             <i className="far fa-user has-text-white"></i>
           </a>
           <div className="navbar-dropdown">
