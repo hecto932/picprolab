@@ -49,7 +49,7 @@ module.exports = (env) => {
           use: {
             loader: 'url-loader',
             options: {
-              limit: 100000, // bytes
+              limit: 100000000, // bytes
               fallback: 'file-loader',
               name: 'images/[name].[ext]',
             }
